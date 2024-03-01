@@ -1,0 +1,1 @@
+from django.urls import pathfrom main.views import *urlpatterns = [    path("abouts", get_about_us_view),    path("products", get_products_view),    path("services", get_services_view),    path("docs", get_docs_view),    path("partners", get_docs_view),    path("contacts", get_docs_view),    path("statitscs", get_docs_view),]
